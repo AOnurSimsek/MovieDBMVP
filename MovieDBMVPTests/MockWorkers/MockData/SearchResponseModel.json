@@ -1,0 +1,396 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/jHxCeXnSchAuwHnmVatTgqMYdX8.jpg",
+      "genre_ids": [
+        28,
+        878
+      ],
+      "id": 557,
+      "original_language": "en",
+      "original_title": "Spider-Man",
+      "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+      "popularity": 112.725,
+      "poster_path": "/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
+      "release_date": "2002-05-01",
+      "title": "Spider-Man",
+      "video": false,
+      "vote_average": 7.287,
+      "vote_count": 18025
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zlpZzccypkAYFZIyYLQcchl90ZC.jpg",
+      "genre_ids": [
+        878,
+        28,
+        80,
+        10770
+      ],
+      "id": 225914,
+      "original_language": "en",
+      "original_title": "Spider-Man",
+      "overview": "When an extortionist threatens to force a multi-suicide unless a huge ransom is paid, only Peter Parker can stop him with his new powers as Spider-Man.",
+      "popularity": 22.427,
+      "poster_path": "/jNxRHZ2cxVkNRtxgHuCtv7GY4JP.jpg",
+      "release_date": "1977-09-14",
+      "title": "Spider-Man",
+      "video": false,
+      "vote_average": 5.954,
+      "vote_count": 142
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 1211839,
+      "original_language": "en",
+      "original_title": "Spiderman",
+      "overview": "A short film about Peter Parker and his journey as Spider-Man.",
+      "popularity": 5.166,
+      "poster_path": "/v87LrxJIULI20KCe6o4d4yZT7EO.jpg",
+      "release_date": "2015-03-23",
+      "title": "Spiderman",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        28,
+        878
+      ],
+      "id": 445033,
+      "original_language": "en",
+      "original_title": "Spider-Man",
+      "overview": "Spider-man must rescue the beautiful daughter of the evil Dr. Lightning.",
+      "popularity": 4.488,
+      "poster_path": "/iYBfBk1i9zjN9Vybbj8UgTYzkyv.jpg",
+      "release_date": "1969-01-01",
+      "title": "Spider-Man",
+      "video": false,
+      "vote_average": 6.69,
+      "vote_count": 21
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 68658,
+      "original_language": "en",
+      "original_title": "Spiderman",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/y6M33fb3AjJAD7jMP6TSumjtl1O.jpg",
+      "release_date": "1990-01-01",
+      "title": "Spider-Man",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 12
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
+      "genre_ids": [
+        16,
+        28,
+        12,
+        878
+      ],
+      "id": 569094,
+      "original_language": "en",
+      "original_title": "Spider-Man: Across the Spider-Verse",
+      "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse’s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+      "popularity": 364.077,
+      "poster_path": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "release_date": "2023-05-31",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "video": false,
+      "vote_average": 8.377,
+      "vote_count": 5582
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 634649,
+      "original_language": "en",
+      "original_title": "Spider-Man: No Way Home",
+      "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+      "popularity": 335.927,
+      "poster_path": "/5weKu49pzJCt06OPpjvT80efnQj.jpg",
+      "release_date": "2021-12-15",
+      "title": "Spider-Man: No Way Home",
+      "video": false,
+      "vote_average": 7.978,
+      "vote_count": 18877
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 1203070,
+      "original_language": "en",
+      "original_title": "SpiderMan",
+      "overview": "A long story short made with life",
+      "popularity": 1.398,
+      "poster_path": null,
+      "release_date": "",
+      "title": "SpiderMan",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qGQf2OHIkoh89K8XeKQzhxczf96.jpg",
+      "genre_ids": [
+        28,
+        12,
+        16,
+        878
+      ],
+      "id": 324857,
+      "original_language": "en",
+      "original_title": "Spider-Man: Into the Spider-Verse",
+      "overview": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
+      "popularity": 142.715,
+      "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+      "release_date": "2018-12-06",
+      "title": "Spider-Man: Into the Spider-Verse",
+      "video": false,
+      "vote_average": 8.404,
+      "vote_count": 14521
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878,
+        18
+      ],
+      "id": 315635,
+      "original_language": "en",
+      "original_title": "Spider-Man: Homecoming",
+      "overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
+      "popularity": 117.324,
+      "poster_path": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+      "release_date": "2017-07-05",
+      "title": "Spider-Man: Homecoming",
+      "video": false,
+      "vote_average": 7.34,
+      "vote_count": 20858
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/w1oD1MzHjnBJc5snKupIQaSBLIh.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 559,
+      "original_language": "en",
+      "original_title": "Spider-Man 3",
+      "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains—including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
+      "popularity": 103.279,
+      "poster_path": "/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
+      "release_date": "2007-05-01",
+      "title": "Spider-Man 3",
+      "video": false,
+      "vote_average": 6.406,
+      "vote_count": 13380
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sxskOU71CO8LaNX2LOtjYFUtKv7.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 1930,
+      "original_language": "en",
+      "original_title": "The Amazing Spider-Man",
+      "overview": "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance – leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
+      "popularity": 117.615,
+      "poster_path": "/jIfkQNARYyERqRAq1p1c8xgePp4.jpg",
+      "release_date": "2012-06-23",
+      "title": "The Amazing Spider-Man",
+      "video": false,
+      "vote_average": 6.696,
+      "vote_count": 16624
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ng6SSB3JhbcpKTwbPDsRwUYK8Cq.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 429617,
+      "original_language": "en",
+      "original_title": "Spider-Man: Far From Home",
+      "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+      "popularity": 100.825,
+      "poster_path": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+      "release_date": "2019-06-28",
+      "title": "Spider-Man: Far From Home",
+      "video": false,
+      "vote_average": 7.437,
+      "vote_count": 14819
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hDvqcbZhq9ux0euxYxCP9N6m1Rh.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 102382,
+      "original_language": "en",
+      "original_title": "The Amazing Spider-Man 2",
+      "overview": "For Peter Parker, life is busy. Between taking out the bad guys as Spider-Man and spending time with the person he loves, Gwen Stacy, high school graduation cannot come quickly enough. Peter has not forgotten about the promise he made to Gwen’s father to protect her by staying away, but that is a promise he cannot keep. Things will change for Peter when a new villain, Electro, emerges, an old friend, Harry Osborn, returns, and Peter uncovers new clues about his past.",
+      "popularity": 104.245,
+      "poster_path": "/dGjoPttcbKR5VWg1jQuNFB247KL.jpg",
+      "release_date": "2014-04-16",
+      "title": "The Amazing Spider-Man 2",
+      "video": false,
+      "vote_average": 6.504,
+      "vote_count": 12587
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8YTbDLjcIpCvBjiUa1yYFFUhwGX.jpg",
+      "genre_ids": [
+        99,
+        80
+      ],
+      "id": 1183166,
+      "original_language": "fr",
+      "original_title": "Vjeran Tomic: L'homme-araignée de Paris",
+      "overview": "In his own words, the burglar behind the 2010 robbery of the Paris Museum of Modern Art tells how he pulled off the biggest art heist in French history.",
+      "popularity": 9.1,
+      "poster_path": "/sv0Pzq9Kdv3NBZNdKnEu9xOdcT4.jpg",
+      "release_date": "2023-10-20",
+      "title": "Vjeran Tomic: The Spider-Man of Paris",
+      "video": false,
+      "vote_average": 6.972,
+      "vote_count": 36
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 961651,
+      "original_language": "en",
+      "original_title": "Spider-Man: All Roads Lead to No Way Home",
+      "overview": "Join our hosts JB Smoove and Martin Starr for a celebration of 20 years of Spider-Man™ movies!  From the original Sam Raimi trilogy to Marc Webb’s “amazing” movies to the latest trio from Director Jon Watts, we will take viewers through the stars, the stunts and action, the villains and heroes and an homage to Stan Lee, along with a few surprises. Find your favourite Spider-Man pajamas and prepare to swing through the past two decades of Spider-Man at the movies!",
+      "popularity": 38.878,
+      "poster_path": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
+      "release_date": "2022-05-03",
+      "title": "Spider-Man: All Roads Lead to No Way Home",
+      "video": false,
+      "vote_average": 6.858,
+      "vote_count": 60
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aqaSgTT6jiAdx9aJ4xUI4G2MEXe.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 558,
+      "original_language": "en",
+      "original_title": "Spider-Man 2",
+      "overview": "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock. In the meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl he's loved since childhood. A certain anger begins to brew in his best friend Harry Osborn as well...",
+      "popularity": 31.589,
+      "poster_path": "/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg",
+      "release_date": "2004-06-25",
+      "title": "Spider-Man 2",
+      "video": false,
+      "vote_average": 7.265,
+      "vote_count": 14369
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bywThfrqhK4PUPMPhkrkDAKF0yd.jpg",
+      "genre_ids": [
+        99,
+        10770
+      ],
+      "id": 228088,
+      "original_language": "fr",
+      "original_title": "De Superman à Spider-Man: L'aventure des super-héros",
+      "overview": "The historical saga of American superheroes. Born in the period between the Great Depression and the World War II to combat the hobgoblins of the modern world, these mutant human beings with superhuman powers colonized the funny papers, radio dramas, television and films, to become a truly national industry in the United States: they gave expression to the fears and obsessions of the twentieth century and bolstered American ideals.",
+      "popularity": 18.822,
+      "poster_path": "/b6760qS8pEb3elWp4e7KPQsGliC.jpg",
+      "release_date": "2001-12-23",
+      "title": "Once Upon a Time: The Super Heroes",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 28
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aKEINUeg3y324PxOwZfwM0uWmk7.jpg",
+      "genre_ids": [
+        28,
+        12,
+        10751,
+        14,
+        10770
+      ],
+      "id": 225925,
+      "original_language": "en",
+      "original_title": "Spider-Man Strikes Back",
+      "overview": "At the New York State University, one of Peter Parker's tutors has accidentally given three students all the materials they need to create an atomic bomb. While Peter Parker tries to find out what's happened, the police suspect him of the crime, and Peter has to deal with an attractive journalist determined to get an interview with Spider-Man. Then dastardly millionaire Mr. White shows up, and will stop at nothing to get his hands on the atomic bomb. Spider-Man must defeat this scheming villain and stop him blowing up the World Trade Centre.",
+      "popularity": 14.951,
+      "poster_path": "/mwRss4cA5m4fH6izoTwwPfF3ZOU.jpg",
+      "release_date": "1978-12-21",
+      "title": "Spider-Man Strikes Back",
+      "video": false,
+      "vote_average": 5.5,
+      "vote_count": 53
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        16,
+        28,
+        12,
+        878
+      ],
+      "id": 911916,
+      "original_language": "en",
+      "original_title": "Spider-Man: Beyond the Spider-Verse",
+      "overview": "Taking place right after the events of Spider-Man: Across the Spider-Verse, Gwen Stacy leads the newly reformed Spider-Gang in a race against the Spider-Society, led by Miguel O'Hara, to find Miles Morales, who is trapped in the home dimension of the spider that bit him, along with an alternate version of himself as the Prowler, while the Spot begins his deadly attack in his dimension with far-reaching multiversal consequences.",
+      "popularity": 25.993,
+      "poster_path": "/5cAuJOfd5tuuFBz2yQmBCtVBaj0.jpg",
+      "release_date": "",
+      "title": "Spider-Man: Beyond the Spider-Verse",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    }
+  ],
+  "total_pages": 4,
+  "total_results": 72
+}
