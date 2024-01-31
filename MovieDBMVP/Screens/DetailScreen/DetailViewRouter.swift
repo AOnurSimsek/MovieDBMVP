@@ -13,7 +13,8 @@ protocol DetailViewRoutingLogic: AnyObject {
     func routeToAlert(alertMessage: String)
 }
 
-final class DetailViewRouter: DetailViewRoutingLogic {
+final class DetailViewRouter: DetailViewRoutingLogic,
+                              UIAlertCreator {
     weak var controller: UIViewController?
 
     init(controller: UIViewController? = nil) {
@@ -31,7 +32,7 @@ final class DetailViewRouter: DetailViewRoutingLogic {
     }
     
     func routeToAlert(alertMessage: String) {
-        let alertVC = UIAlertManager.shared.getSimpleAlertController(message: alertMessage)
+        let alertVC = getSimpleAlertController(message: alertMessage)
         controller?.present(alertVC, animated: true)
     }
     

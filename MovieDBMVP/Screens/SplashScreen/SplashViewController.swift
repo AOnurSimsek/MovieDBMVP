@@ -50,7 +50,7 @@ final class SplashViewController: UIViewController {
                        options: .curveEaseIn) {
             self.logoImageView.alpha = 1
         } completion: { _ in
-            let vc = BaseBuilder.shared.createHomeScreen()
+            let vc = HomeViewBuilder().createHomeScreen()
             self.setRootVC(newRoot: vc)
         }
         

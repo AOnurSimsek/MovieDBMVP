@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene)
         else { return }
         
-        let vc = BaseBuilder.shared.createSplashScreen()
+        let vc = SplashViewBuilder().createSplashScreen()
         
         let window = UIWindow(windowScene: windowScene)
         window.rootViewController = vc

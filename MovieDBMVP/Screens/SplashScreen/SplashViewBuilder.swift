@@ -1,13 +1,13 @@
 //
-//  SplashBuilder.swift
+//  SplashViewBuilder.swift
 //  MovieDBMVP
 //
 //  Created by Abdullah Onur Şimşek on 31.01.2024.
 //
 
-import Foundation
+import UIKit
 
-final class SplashBuilder {
+final class SplashViewBuilder {
     func createSplashScreen() -> UIViewController {
         let controller: SplashViewController = .init()
         return controller

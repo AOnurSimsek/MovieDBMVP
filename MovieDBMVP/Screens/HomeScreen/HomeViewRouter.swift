@@ -13,21 +13,22 @@ protocol HomeViewRoutingLogic: AnyObject {
     func routeToOccurence(title: String)
 }
 
-final class HomeViewRouter: HomeViewRoutingLogic {
+final class HomeViewRouter: HomeViewRoutingLogic,
+                            UIAlertCreator {
     weak var controller: UIViewController?
 
     func routeToDetail(id: Int) {
-        let vc = BaseBuilder.shared.createDetailScreen(movieId: String(id))
+        let vc = DetailViewBuilder().createDetailScreen(movieId: String(id))
         controller?.navigationController?.pushViewController(vc, animated: true)
     }
     
     func routeToAlert(alertMessage: String) {
-        let alertVC = UIAlertManager.shared.getSimpleAlertController(message: alertMessage)
+        let alertVC = getSimpleAlertController(message: alertMessage)
         controller?.present(alertVC, animated: true)
     }
     
     func routeToOccurence(title: String) {
-        let vc = BaseBuilder.shared.createOccurenceScreen(with: title)
+        let vc = OccurenceViewBuilder().createOccurenceScreen(with: title)
         controller?.navigationController?.pushViewController(vc, animated: true)
     }
     
