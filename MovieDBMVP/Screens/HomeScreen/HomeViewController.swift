@@ -73,9 +73,17 @@ final class HomeViewController: BaseViewController {
         presenter.fetchMovies()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setNavBar()
+    }
+    
     private func setUI() {
         self.view.backgroundColor = .tmdbDarkBlue
         self.navigationItem.title = ""
+    }
+    
+    private func setNavBar() {
         self.navigationController?.navigationBar.isHidden = true
     }
     

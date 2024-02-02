@@ -82,11 +82,11 @@ extension DetailViewController: UITableViewDelegate,
         tableView.separatorColor = .tmdbLightGreen
         tableView.estimatedRowHeight = 60
         
-        tableView.register(InformationTableViewCell.self.self,
+        tableView.register(InformationTableViewCell.self,
                            forCellReuseIdentifier: InformationTableViewCell.reuseIdentifier)
-        tableView.register(ImageTableViewCell.self.self,
+        tableView.register(ImageTableViewCell.self,
                            forCellReuseIdentifier: ImageTableViewCell.reuseIdentifier)
-        tableView.register(ButtonTableViewCell.self.self,
+        tableView.register(ButtonTableViewCell.self,
                            forCellReuseIdentifier: ButtonTableViewCell.reuseIdentifier)
     }
     
@@ -102,7 +102,7 @@ extension DetailViewController: UITableViewDelegate,
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let currentSection = displayData.getSectionType(at: indexPath.section)
-        let cellData = displayData.getnCellData(type: currentSection)
+        let cellData = displayData.getCellData(type: currentSection)
         
         switch currentSection {
         case .imageAndTitle:

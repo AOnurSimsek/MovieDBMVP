@@ -35,6 +35,8 @@ final class InformationTableViewCell: UITableViewCell {
     
     private func setUI() {
         self.contentView.backgroundColor = .tmdbDarkBlue
+        self.backgroundColor = .tmdbDarkBlue
+        self.selectionStyle = .none
     }
     
     private func setLayout() {

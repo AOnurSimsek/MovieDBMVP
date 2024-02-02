@@ -40,7 +40,7 @@ struct DetailViewDisplayModel {
         return data
     }
     
-    func getnCellData(type: DetailViewCellTypes) -> Any {
+    func getCellData(type: DetailViewCellTypes) -> Any {
         switch type {
         case .imageAndTitle:
             let model:ImageTableViewCellDisplayModel = .init(imagePath: data?.backdropPath,
