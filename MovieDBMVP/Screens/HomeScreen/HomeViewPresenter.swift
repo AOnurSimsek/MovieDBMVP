@@ -19,7 +19,8 @@ final class HomeViewPresenter: HomeViewPresentationLogic {
     private let searchWorker: SearchWorker
     weak var controller: HomeViewDisplayLogic?
     
-    private var task: DispatchWorkItem?
+    private let performerQueue: DispatchQueue = DispatchQueue.global(qos: .userInitiated)
+    private var requestTask: DispatchWorkItem?
     private var pageNumber: Int = 1
     private var canLoadMore: Bool = true
     private var isLoadingMore: Bool = false
@@ -30,23 +31,13 @@ final class HomeViewPresenter: HomeViewPresentationLogic {
         self.searchWorker = searchWorker
     }
     
-    private func performTask(_ task: DispatchWorkItem?) {
-        guard let requestTask = task
-        else { return }
-        
-        DispatchQueue.global(qos: .userInitiated).async(execute: requestTask)
-    }
-    
     func fetchMovies() {
-        task?.cancel()
+        requestTask?.cancel()
         self.pageNumber = 1
-        task = .init {
+        let firstPageTask: DispatchWorkItem = .init {
             self.controller?.showLoading(isLoading: true)
             self.movieWorker.getTopRatedMoview(with: self.pageNumber) { [weak self] result in
                 guard let self = self
-                else { return }
-                
-                guard !(self.task?.isCancelled ?? false)
                 else { return }
                 
                 switch result {
@@ -60,7 +51,7 @@ final class HomeViewPresenter: HomeViewPresentationLogic {
                     } else {
                         self.canLoadMore = false
                     }
-                    
+
                     let model: HomeViewDisplayModel = .init(data: movieResult)
                     controller?.display(model)
                     
@@ -74,8 +65,9 @@ final class HomeViewPresenter: HomeViewPresentationLogic {
             
         }
         
-        performTask(task)
-        
+        requestTask = firstPageTask
+        performerQueue.asyncAfter(deadline: .now() + .milliseconds(100),
+                                  execute: firstPageTask)
     }
     
     func fetchMoreMovies() {
@@ -118,16 +110,13 @@ final class HomeViewPresenter: HomeViewPresentationLogic {
     }
     
     func fetchMovies(searchText: String) {
-        task?.cancel()
+        requestTask?.cancel()
         self.pageNumber = 1
-        task = .init {
+        let searchTask: DispatchWorkItem = .init {
             self.controller?.showLoading(isLoading: true)
             self.searchWorker.searchMovie(page: self.pageNumber, 
                                           searchText: searchText) { [weak self] result in
                 guard let self = self
-                else { return }
-                
-                guard !(self.task?.isCancelled ?? false)
                 else { return }
                 
                 switch result {
@@ -155,7 +144,10 @@ final class HomeViewPresenter: HomeViewPresentationLogic {
             
         }
         
-        performTask(task)
+        requestTask = searchTask
+        performerQueue.asyncAfter(deadline: .now() + .milliseconds(200),
+                                  execute: searchTask)
+        
     }
     
     func fetchMoreMovies(searchText: String) {

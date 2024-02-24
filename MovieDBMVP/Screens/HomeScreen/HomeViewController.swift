@@ -174,12 +174,6 @@ extension HomeViewController: SearhBarViewDelegate {
         
     }
     
-    func textFieldShouldClear(_ textField: UITextField) -> Bool {
-        self.searchText = nil
-        presenter.fetchMovies()
-        return true
-    }
-    
 }
 
 // MARK: - Cell Delegates
